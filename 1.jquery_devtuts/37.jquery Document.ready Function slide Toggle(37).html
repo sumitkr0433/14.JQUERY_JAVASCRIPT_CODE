@@ -1,0 +1,34 @@
+<!Doctype Html>
+<title></title>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="text/javascript" src="js/jquery.js"></script>
+<style>
+    #one{
+	      width:200px;
+		  height:300px;
+		  background:red;
+		  color:white;
+		display:none;
+		  }
+		  </style>
+<script>
+         $(document).ready(function(){
+			 $('#downup').click(function(){
+			 $('#one').slideToggle(2000);
+			 
+            });
+			});
+		</script>
+
+	</head>
+	
+
+	<input type="button" value="SlideDown" id="downup">
+	
+	<div id="one"></div>
+	
+	<p class="one"></p>
+	</body>
+	</html>

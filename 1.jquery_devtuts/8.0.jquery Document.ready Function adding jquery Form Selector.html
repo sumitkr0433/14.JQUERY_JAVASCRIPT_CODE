@@ -1,0 +1,32 @@
+<!Doctype Html>
+<title></title>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="text/javascript" src="js/jquery.js"></script>
+<style>
+    .blue{
+	      border:2px solid blue;
+		  }
+		  </style>
+<script type ="text/javascript">
+         $(document).ready(function(){
+			 $(':input').addClass('blue');
+  
+            });
+		</script>
+<!-- Now suppose we want to apply the style only on the input having type="text" then we write the Jquery code in this way.
+              $(document).ready(function(){
+			 $(':input:text').addClass('blue');-->
+<!-- Now suppose we want to apply the style only on the input having type="text" then we write the Jquery code in this way.
+              $(document).ready(function(){
+			 $(':input:Password').addClass('blue');-->
+<!-- Now suppose we want to apply the style only on the input having type="text" then we write the Jquery code in this way.
+              $(document).ready(function(){
+			 $(':input').ckick(function(){
+			 $(this).addClass('blue');-->
+	</head>
+	
+
+	<p>Username<input type=text" name="" id=""/></p>
+	<p>Password<input type=password" name="" id=""/></p>

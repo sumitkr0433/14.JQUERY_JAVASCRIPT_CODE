@@ -1,0 +1,29 @@
+<!Doctype Html>
+<title></title>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="text/javascript" src="js/jquery.js"></script>
+		<script type ="text/javascript">
+         $(document).ready(function(){
+			 $('#btn').click(function(){
+			 var label = prompt("enter label");
+			 var type =  prompt("Enter Input type");
+			 if(label && type){
+  $('p.first').append("<p>" +label+ " " +"<input type='"+type+"'/>"+"</p>");
+				}
+			 
+			  });
+			 });
+            
+		
+</script>
+</head>
+<body>
+
+
+<input type="button" value="Add Field" id="btn"/>
+<p class="first">Username<input type="text" name="" id=""></p>
+
+</body>
+</html>

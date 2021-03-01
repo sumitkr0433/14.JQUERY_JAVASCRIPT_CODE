@@ -1,0 +1,27 @@
+<!Doctype Html>
+<title></title>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="text/javascript" src="js/jquery.js"></script>
+		<script type ="text/javascript">
+         $(document).ready(function(){
+			 $('#btn').click(function(){
+			 $('p').prepend("This is the Content which i want to expand");
+			 $('p.first').prepend("This is the Content which i want to expandwhose class is first");
+			 
+			  });
+			 
+            });
+		</script>
+</script>
+</head>
+<body>
+
+
+<input type="button" value="prepend" id="btn"/>
+<p>This is the the First Paragraph</p>
+<p class="first">This is the second Paragraph</p>
+
+</body>
+</html>
