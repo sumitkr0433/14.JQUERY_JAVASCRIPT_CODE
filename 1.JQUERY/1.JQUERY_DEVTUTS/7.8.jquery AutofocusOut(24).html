@@ -1,0 +1,60 @@
+<!Doctype Html>
+<title></title>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script>
+$(document).ready(function(){
+$(':input').focusin(function(){
+$(this).addClass('color');
+			 });
+$(':input').focusout(function(){
+$('.this').removeClass('color');
+});
+$('#username').focusin(function(){
+$('.user').text('EnterUsername');
+			 });
+$('#username').focusout(function(){
+$('.user').text('');
+			 });
+$('#password').focusin(function(){
+$('.pass').text('EnterPassword');
+			 });
+$('#password').focusout(function(){
+$('.pass').text('');
+			 });
+$('#firstname').focusin(function(){
+$('.first').text('Enter Your Name');
+			 });
+$('#firstname').focusout(function(){
+$('.first').text('');
+			 });
+$('#lastname').focusin(function(){
+$('.last').text('Enter Your Lastname');
+			 });
+$('#lastname').focusout(function(){
+$('.last').text('');
+			 });			 
+			 });
+			</script>
+<style>
+  .color{
+      background:#eee;
+	  }
+	 
+	  </style>
+	</head>
+	
+
+		<body>
+		Username:<input type="text" name=""id="username"/><span class="user"></span><br><br>
+		Password<input type="text" name=""id="password"/><span class="pass"></span><br><br>
+		first Name<input type="text" name=""id="firstname"/><span class="first"></span><br><br>
+		Last Name<input type="text" name=""id="lastname"/><span class="last"></span><br><br>
+		</body>
+		</html>
+<!-- Camel casing must observe it i.e addClass single inverted comma in tag element and double comma 
+in the 
+<!-- Name of the row start with 0,1,2,3,4,5,6-->	
+		

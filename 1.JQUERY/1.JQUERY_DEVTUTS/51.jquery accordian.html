@@ -1,0 +1,47 @@
+<!Doctype Html>
+<title></title>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="text/javascript" src="js/jquery.js"></script>
+<link href="jqueryui/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+
+
+
+		
+
+		<style>
+		
+	#one{
+	width:300px;
+	}
+	#one h2{
+	   background:red;
+	   color:white;
+	}
+		</style>
+	</head>
+	<body>
+	<div id="one">
+	<h2>1</h1>
+	<div >This is a First paragraph tag</div>
+	<h2>2</h2>
+	<div >This is a  Second paragraph tag</div>
+	<h2>3</h3>
+	<div>This is a third paragraph tag</div>
+	<h2>4</h3>
+	<div>This is a fourth paragraph tag</div>
+	</div>
+	
+	
+
+<script src="jqueryui/external/jquery/jquery.js"></script>
+<script src="jqueryui/jquery-ui.js"></script>
+<script>
+         $(document).ready(function(){
+			 $('#one').accordion({
+			 event:"mouseover",
+			 active:2
+			 });
+            });
+		</script>
